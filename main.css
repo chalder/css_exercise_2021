@@ -35,7 +35,7 @@ body>div:last-child {
 }
 
 
-.row2>span:first-child(1){
+.row2>span:first-child{
     order:-1;
 }
 .row2>span:nth-child(2){
