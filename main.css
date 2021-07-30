@@ -25,7 +25,7 @@ body>div:last-child {
 .row1,.row2 span{
     order:1;
 }
-.row1>span:first-child(1) {
+.row1>span:first-child {
     order:2
 }
 .row1>span:nth-child(2) {
