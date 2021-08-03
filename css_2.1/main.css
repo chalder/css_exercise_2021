@@ -1,11 +1,12 @@
-html body {
+html, body {
     margin: 0;
+    padding: 0
 }
 
 .layout {
     display: flex;
     flex-direction: column;
-    min-height: 800px;
+    min-height: 100vh;
 }
 
 .layout .header {
@@ -14,11 +15,11 @@ html body {
 }
 
 .layout .body {
-    height: 500px;
     background-color: rgb(58, 52, 52);
+    flex: 4 1 auto;
 }
 
 .layout .footer {
-    height: 100px;
     background-color: rgb(80, 73, 73);
+    flex: 1 1 auto;
 }
