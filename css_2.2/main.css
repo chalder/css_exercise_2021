@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightblue;
+}
+
+.base-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-container {
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+
+.car-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px 20px 5px 20px;
+    margin: 20px;
+    background-color: white;
+    align-items: center;
+}
+
+.car-card img {
+    height: 100px;
+    width: 180px;
+    border-radius: 5px;
+    margin: 10px 10px 24px 10px;
+}
+
+.car-card button {
+    margin: 9px 0;
+    border-radius: 12px;
+}
+
+.carousel-container .arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-container .arrow label {
+    color: white;
+}
+
+.base-container .carousel-dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel-dots span {
+    margin: 5px;
+}
+
+.carousel-dots .empty-circle {
+    height: 5px;
+    width: 5px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.carousel-dots .solid-circle {
+    height: 5px;
+    width: 5px;
+    background: white;
+    border-radius: 50px;
+}
