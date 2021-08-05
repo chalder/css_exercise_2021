@@ -1,51 +1,57 @@
 <html lang="en">
 
 <head>
+    <script src="https://use.fontawesome.com/e9ad0be76f.js"></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image carousel</title>
     <link rel="stylesheet" href="main.css" />
+
 </head>
 
 <body>
     <div class="base-container">
         <div class="carousel-container">
-            <div class="arrow">
-                <label><</label>
+            <div class="arrow left">
+                <i class="fa fa-angle-left fa-2x"></i>
             </div>
             <div class="car-card">
-                <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iTN.uLLm.Dok/v0/-1x-1.jpg">
+                <img
+                    src="https://images.unsplash.com/photo-1549927681-0b673b8243ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
                 <label>Model Name</label>
                 <label>Some text about the car</label>
                 <label>More text about the car</label>
                 <button>Buy Now</button>
             </div>
             <div class="car-card">
-                <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iedq2X21q1Hs/v0/2400x-1.jpg">
+                <img
+                    src="https://images.unsplash.com/photo-1532581140115-3e355d1ed1de?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1300&q=80">
                 <label>Model Name</label>
                 <label>Some text about the car</label>
                 <label>More text about the car</label>
                 <button>Buy Now</button>
             </div>
             <div class="car-card">
-                <img src="https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ia4O5xFbRABQ/v0/2400x-1.jpg">
+                <img
+                    src="https://images.unsplash.com/photo-1528501028382-e587fcf3a03e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1300&q=80">
                 <label>Model Name</label>
                 <label>Some text about the car</label>
                 <label>More text about the car</label>
                 <button>Buy Now</button>
             </div>
-            <div class="arrow">
-                <label>></label>
+            <div class="arrow right">
+                <i class="fa fa-angle-right fa-2x"></i>
             </div>
         </div>
         <div class="carousel-dots">
-            <span class="empty-circle"></span>
-            <span class="solid-circle"></span>
-            <span class="empty-circle"></span>
+            <span class="first-dot solid-circle empty-circle"></span>
+            <span class="second-dot empty-circle"></span>
+            <span class="third-dot empty-circle"></span>
         </div>
     </div>
-
+    <script src="carousel.js"></script>
 </body>
 
 </html>

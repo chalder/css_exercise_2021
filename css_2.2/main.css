@@ -29,14 +29,14 @@ body {
 }
 
 .car-card img {
-    height: 100px;
+    height: 130px;
     width: 180px;
     border-radius: 5px;
     margin: 10px 10px 24px 10px;
 }
 
 .car-card button {
-    margin: 9px 0;
+    margin: 15px 0;
     border-radius: 12px;
 }
 
@@ -46,8 +46,9 @@ body {
     justify-content: center;
 }
 
-.carousel-container .arrow label {
+.carousel-container .arrow i {
     color: white;
+    cursor: pointer;
 }
 
 .base-container .carousel-dots {
@@ -58,6 +59,7 @@ body {
 
 .carousel-dots span {
     margin: 5px;
+    cursor: pointer;
 }
 
 .carousel-dots .empty-circle {
@@ -71,5 +73,6 @@ body {
     height: 5px;
     width: 5px;
     background: white;
+    border: 1px solid white;
     border-radius: 50px;
 }
